@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20B784A236660EE004FF843 /* VCExtinsions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20B7849236660EE004FF843 /* VCExtinsions.swift */; };
+		E21532BD2365E33D001C99AC /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21532BC2365E33D001C99AC /* GoalType.swift */; };
 		E21D8A6F2364EEAB00B182FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D8A6E2364EEAB00B182FD /* AppDelegate.swift */; };
 		E21D8A712364EEAB00B182FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D8A702364EEAB00B182FD /* SceneDelegate.swift */; };
-		E21D8A732364EEAC00B182FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D8A722364EEAC00B182FD /* ViewController.swift */; };
+		E21D8A732364EEAC00B182FD /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D8A722364EEAC00B182FD /* GoalsVC.swift */; };
 		E21D8A762364EEAC00B182FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21D8A742364EEAC00B182FD /* Main.storyboard */; };
 		E21D8A792364EEAC00B182FD /* goalpost_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E21D8A772364EEAC00B182FD /* goalpost_app.xcdatamodeld */; };
 		E21D8A7B2364EEAD00B182FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21D8A7A2364EEAD00B182FD /* Assets.xcassets */; };
 		E21D8A7E2364EEAD00B182FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21D8A7C2364EEAD00B182FD /* LaunchScreen.storyboard */; };
+		E21D8A89236504A700B182FD /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D8A88236504A700B182FD /* GoalCell.swift */; };
+		E21D8A8B236504EF00B182FD /* Constatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D8A8A236504EF00B182FD /* Constatnts.swift */; };
+		E2936A562366519B001C9E10 /* CreateGaolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2936A552366519B001C9E10 /* CreateGaolVC.swift */; };
+		E2ED335B23672D7B0052DBA2 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED335A23672D7B0052DBA2 /* FinishGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E20B7849236660EE004FF843 /* VCExtinsions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCExtinsions.swift; sourceTree = "<group>"; };
+		E21532BC2365E33D001C99AC /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		E21D8A6B2364EEAB00B182FD /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21D8A6E2364EEAB00B182FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E21D8A702364EEAB00B182FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E21D8A722364EEAC00B182FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E21D8A722364EEAC00B182FD /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		E21D8A752364EEAC00B182FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E21D8A782364EEAC00B182FD /* goalpost_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goalpost_app.xcdatamodel; sourceTree = "<group>"; };
 		E21D8A7A2364EEAD00B182FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E21D8A7D2364EEAD00B182FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E21D8A7F2364EEAD00B182FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21D8A88236504A700B182FD /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		E21D8A8A236504EF00B182FD /* Constatnts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatnts.swift; sourceTree = "<group>"; };
+		E2936A552366519B001C9E10 /* CreateGaolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGaolVC.swift; sourceTree = "<group>"; };
+		E2ED335A23672D7B0052DBA2 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +70,11 @@
 		E21D8A6D2364EEAB00B182FD /* goalpost-app */ = {
 			isa = PBXGroup;
 			children = (
+				E21D8A872364EF6400B182FD /* Helper */,
+				E21D8A862364EF5700B182FD /* View */,
+				E21D8A852364EF4C00B182FD /* Controller */,
 				E21D8A6E2364EEAB00B182FD /* AppDelegate.swift */,
 				E21D8A702364EEAB00B182FD /* SceneDelegate.swift */,
-				E21D8A722364EEAC00B182FD /* ViewController.swift */,
 				E21D8A742364EEAC00B182FD /* Main.storyboard */,
 				E21D8A7A2364EEAD00B182FD /* Assets.xcassets */,
 				E21D8A7C2364EEAD00B182FD /* LaunchScreen.storyboard */,
@@ -68,6 +82,34 @@
 				E21D8A772364EEAC00B182FD /* goalpost_app.xcdatamodeld */,
 			);
 			path = "goalpost-app";
+			sourceTree = "<group>";
+		};
+		E21D8A852364EF4C00B182FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E21D8A722364EEAC00B182FD /* GoalsVC.swift */,
+				E2936A552366519B001C9E10 /* CreateGaolVC.swift */,
+				E2ED335A23672D7B0052DBA2 /* FinishGoalVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E21D8A862364EF5700B182FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E21D8A88236504A700B182FD /* GoalCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E21D8A872364EF6400B182FD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E21D8A8A236504EF00B182FD /* Constatnts.swift */,
+				E21532BC2365E33D001C99AC /* GoalType.swift */,
+				E20B7849236660EE004FF843 /* VCExtinsions.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21D8A732364EEAC00B182FD /* ViewController.swift in Sources */,
+				E21D8A732364EEAC00B182FD /* GoalsVC.swift in Sources */,
+				E21532BD2365E33D001C99AC /* GoalType.swift in Sources */,
 				E21D8A6F2364EEAB00B182FD /* AppDelegate.swift in Sources */,
+				E20B784A236660EE004FF843 /* VCExtinsions.swift in Sources */,
+				E21D8A8B236504EF00B182FD /* Constatnts.swift in Sources */,
 				E21D8A792364EEAC00B182FD /* goalpost_app.xcdatamodeld in Sources */,
+				E2936A562366519B001C9E10 /* CreateGaolVC.swift in Sources */,
+				E21D8A89236504A700B182FD /* GoalCell.swift in Sources */,
+				E2ED335B23672D7B0052DBA2 /* FinishGoalVC.swift in Sources */,
 				E21D8A712364EEAB00B182FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,13 +339,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYRRLZ9K4A;
 				INFOPLIST_FILE = "goalpost-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ahmed.DevTech.goalpost-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,13 +358,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYRRLZ9K4A;
 				INFOPLIST_FILE = "goalpost-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Ahmed.DevTech.goalpost-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
