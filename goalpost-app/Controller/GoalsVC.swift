@@ -16,6 +16,7 @@ class GoalsVC: UIViewController {
     var goals : [Goal] = []
 
     @IBOutlet weak var tableView: UITableView!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
@@ -24,7 +25,7 @@ class GoalsVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        fetchCoreDataObjects()
+         fetchCoreDataObjects()
           tableView.reloadData()
           }
     
@@ -44,7 +45,6 @@ class GoalsVC: UIViewController {
     }
     
     @IBAction func addGoalBtn(_ sender: Any) {
-        print("fuck programming x-x ")
         guard let createGoalVC = storyboard?.instantiateViewController(identifier: "CreateGoalVC") as? CreateGaolVC else {return}
         AnimateVCUP(createGoalVC)
     }
@@ -60,7 +60,7 @@ extension GoalsVC : UITableViewDelegate , UITableViewDataSource {
         return goals.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-       guard let cell = tableView.dequeueReusableCell(withIdentifier: "gaolCell") as? GoalCell else{ return UITableViewCell() }
+       guard let cell = tableView.dequeueReusableCell(withIdentifier: "gaolCell") as? GoalCell else{ return GoalCell() }
         let goal = goals[indexPath.row]
         cell.initCell(goal: goal)
         

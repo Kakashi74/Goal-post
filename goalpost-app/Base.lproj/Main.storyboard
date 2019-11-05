@@ -126,7 +126,7 @@
                                                             </subviews>
                                                         </stackView>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="bmi-Ky-9gA" firstAttribute="top" secondItem="iOv-Oq-2bQ" secondAttribute="top" constant="49.5" id="3tm-OJ-NTP"/>
                                                     </constraints>
@@ -141,6 +141,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="iOv-Oq-2bQ" firstAttribute="leading" secondItem="ZDu-OM-d5a" secondAttribute="leading" constant="10" id="0YJ-i6-2aZ"/>
                                                 <constraint firstAttribute="trailing" secondItem="XYx-KD-bMS" secondAttribute="trailing" constant="8" id="13M-s8-Fge"/>
@@ -151,7 +152,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="iOv-Oq-2bQ" secondAttribute="bottom" id="wGY-ee-ki3"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="descGaol" destination="93n-zk-tSC" id="skL-nP-LdE"/>
                                             <outlet property="goelProgress" destination="XYx-KD-bMS" id="X1D-cC-otI"/>
